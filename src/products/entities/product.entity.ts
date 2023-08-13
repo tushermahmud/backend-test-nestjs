@@ -1,6 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 import { Exclude } from 'class-transformer';
-@Entity()
+@Entity({ name: 'product', schema: 'public' })
 export class Product {
   @PrimaryGeneratedColumn()
   id: number;

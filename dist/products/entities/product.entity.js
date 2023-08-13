@@ -38,6 +38,6 @@ __decorate([
     __metadata("design:type", String)
 ], Product.prototype, "coverImage", void 0);
 exports.Product = Product = __decorate([
-    (0, typeorm_1.Entity)()
+    (0, typeorm_1.Entity)({ name: 'product', schema: 'public' })
 ], Product);
 //# sourceMappingURL=product.entity.js.map
